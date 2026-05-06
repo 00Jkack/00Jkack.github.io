@@ -3,32 +3,34 @@ Electrical Engineer · Founder · `Interim Secret Clearance` · B.S. EE, Ohio Un
 
 ---
 
+## Now
+
+Recently received a **Bachelors of Science in Electrical Engineering (BSEE) from Ohio University**. 
+
+Co-founder and Production Lead at **Eye Proxy LLC** — a dashcam startup. Filed provisional U.S. patent (2025). Coordinated and collaborated with every engineer on the project. Co-designed PCB, built the enclosure, and authored 90%+ of company design and legal documentation.
+
+Currently onboarding with NAVSEA Crane, ongoing 7 months - I am open for more oppurtunities. 
+
+Previously two years at **AMETEK Sunpower** doing R&D on cryocooler controllers — hardware testing, firmware testing, ESD compliance, desgined a 600W test-load, maintained user manuals, component-lifecycle tracking, and a 358-procedure test automation app that supported production rate, mitigated production error, and cut per-procedure time by 95%.
+
+Previously interned with **Asphalt Materials Inc.** I between two asphalt emulsion sites for a summer. I assisted with safety data sheets (~200 valve alignment instruction sheets), re-designed the mill room for improved space efficiency, gained exposure to PLCs (watched a contactor PE install a VFD to automate loading asphalt into trucks.)\
+
+Previously worked at the following comapnies for general package handling: **UPS**, **FEDEX Express**, **AmerisourceBergen NDC**.
+
+---
+
 ## Resume 
 
 [Resume](./John_Kochensparger_Resume.pdf)
 
-## Now
-
-Co-founder and Production Lead at **Eye Proxy LLC** — a covert dashcam startup. Filed provisional U.S. patent (2025). Designed the PCB, wrote BLE streaming firmware, built the enclosure, and authored 90%+ of all design documentation from SRR through TDP.
-
-Previously two years at **AMETEK Sunpower** doing R&D on cryocooler controllers — hardware testing, firmware releases, ESD compliance, and a 358-procedure test automation app that cut per-procedure time by 95%.
-
 ---
 
-## Projects
+## Project Photos
 
-**EP1 — Eye Proxy LLC**
-Custom PCB · ESP32-C6 · ISM330DHCX · BLE · Dual-camera · Solar · 8mm form factor
 
-**Controller Setup Menu App — AMETEK Sunpower**
-Python · 358 automated procedures · Serial comms · QA/RMA/MRB workflows
+[Resume](./John_Kochensparger_Resume.pdf)
 
-**Rocket Club Flight Controller — Ohio University**
-NINA-B306 · Arduino C · Python · Five L1 launches · 200k–300k lines of sensor data per flight
-
-**Cryotel GT Test-Load — AMETEK Sunpower**
-Impedance-matched test fixture for a space-grade cryocooler · High-power resistor circuit · Full enclosure assembly
-
+  
 ---
 
 ## Skills
