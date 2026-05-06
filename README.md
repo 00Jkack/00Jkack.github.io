@@ -3,6 +3,10 @@ Electrical Engineer · Founder · `Interim Secret Clearance` · B.S. EE, Ohio Un
 
 ---
 
+## Resume 
+
+[Resume](./John_Kochensparger_Resume.pdf)
+
 ## Now
 
 Co-founder and Production Lead at **Eye Proxy LLC** — a covert dashcam startup. Filed provisional U.S. patent (2025). Designed the PCB, wrote BLE streaming firmware, built the enclosure, and authored 90%+ of all design documentation from SRR through TDP.
