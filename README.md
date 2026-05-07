@@ -1,5 +1,5 @@
 # John Kochensparger
-Electrical Engineer · Founder · `Interim Secret Clearance` · B.S. EE, Ohio University 2026
+Electrical Engineer · Founder · `Interim Secret Clearance` · BSEE, Ohio University 2026
 
 ---
 
@@ -9,7 +9,7 @@ Recently received a **Bachelors of Science in Electrical Engineering (BSEE) from
 
 Co-founder and Production Lead at **Eye Proxy LLC** — a dashcam startup. Filed provisional U.S. patent (2025). Coordinated and collaborated with every engineer on the project. Co-designed PCB, built the enclosure, and authored 90%+ of company design and legal documentation.
 
-Currently onboarding with NAVSEA Crane, ongoing 7 months - I am open for more oppurtunities. 
+Currently onboarding with **Naval Surface Warfare Centers**, ongoing 7 months - I am open for more oppurtunities. 
 
 Previously two years at **AMETEK Sunpower** doing R&D on cryocooler controllers — hardware testing, firmware testing, ESD compliance, desgined a 600W test-load, maintained user manuals, component-lifecycle tracking, and a 358-procedure test automation app that supported production rate, mitigated production error, and cut per-procedure time by 95%.
 
@@ -25,10 +25,18 @@ Previously worked at the following comapnies for general package handling: **UPS
 
 ---
 
-## Project Photos
+## Ohio U Rocket Club Flight Controller 
 
 
-[Resume](./John_Kochensparger_Resume.pdf)
+[Ohio U Rocket Club Flight Controller ](./BOT_0049.JPG)
+
+  
+---
+
+## Eye Proxy LLC  
+
+
+[EP1](./Explodedview.png)
 
   
 ---
