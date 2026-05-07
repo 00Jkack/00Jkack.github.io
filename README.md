@@ -13,7 +13,7 @@ Currently onboarding with **Naval Surface Warfare Centers**, ongoing 7 months - 
 
 Previously two years at **AMETEK Sunpower** doing R&D on cryocooler controllers — hardware testing, firmware testing, ESD compliance, desgined a 600W test-load, maintained user manuals, component-lifecycle tracking, and a 358-procedure test automation app that supported production rate, mitigated production error, and cut per-procedure time by 95%.
 
-Previously interned with **Asphalt Materials Inc.** I between two asphalt emulsion sites for a summer. I assisted with safety data sheets (~200 valve alignment instruction sheets), re-designed the mill room for improved space efficiency, gained exposure to PLCs (watched a contactor PE install a VFD to automate loading asphalt into trucks.)\
+Previously interned with **Asphalt Materials Inc.** I between two asphalt emulsion sites for a summer. I assisted with safety data sheets (~200 valve alignment instruction sheets), re-designed the mill room for improved space efficiency, gained exposure to PLCs (watched a contactor PE install a VFD to automate loading asphalt into trucks.)
 
 Previously worked at the following comapnies for general package handling: **UPS**, **FEDEX Express**, **AmerisourceBergen NDC**.
 
