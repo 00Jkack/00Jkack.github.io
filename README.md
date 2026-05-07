@@ -15,7 +15,7 @@ Previously two years at **AMETEK Sunpower** doing R&D on cryocooler controllers 
 
 Previously interned with **Asphalt Materials Inc.** I between two asphalt emulsion sites for a summer. I assisted with safety data sheets (~200 valve alignment instruction sheets), re-designed the mill room for improved space efficiency, gained exposure to PLCs (watched a contactor PE install a VFD to automate loading asphalt into trucks.)
 
-Previously worked at the following comapnies for general package handling: **UPS**, **FEDEX Express**, **AmerisourceBergen NDC**.
+Previously worked at the following comapanies for general package handling: **UPS**, **FEDEX Express**, **AmerisourceBergen NDC**.
 
 ---
 
