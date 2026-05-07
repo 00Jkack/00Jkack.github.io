@@ -5,7 +5,7 @@ Electrical Engineer · Founder · `Interim Secret Clearance` · BSEE, Ohio Unive
 
 ## Now
 
-Recently received a **Bachelors of Science in Electrical Engineering (BSEE) from Ohio University**.
+Recently received a **Bachelors of Science in Electrical Engineering (BSEE) from Ohio University**. 
 
 **Co-founder and Production Lead at Eye Proxy LLC** — a dashcam startup. Filed provisional U.S. patent (2025). Coordinated and collaborated with every engineer on the project. Co-designed PCB, built the enclosure, and authored 90%+ of company design and legal documentation.
 
@@ -17,7 +17,7 @@ Alongside these two commitments, **I am still open for work**. Working at Crane 
 
 **Previously interned with Asphalt Materials Inc.**, rotating between two asphalt emulsion sites for one summer. I assisted with safety data sheets (~200 valve alignment instruction sheets), re-designed the mill room for improved space efficiency, gained exposure to PLCs (watched a contractor PE install a VFD to automate loading asphalt into trucks).
 
-Previously worked at the following companies for general package handling: UPS, FedEx Express, AmerisourceBergen NDC
+Previously worked at the following companies for general package handling: **UPS, FedEx Express, AmerisourceBergen NDC**
 
 ---
 
