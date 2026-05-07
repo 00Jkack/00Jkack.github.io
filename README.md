@@ -41,10 +41,4 @@ Previously worked at the following comapanies for general package handling: **UP
   
 ---
 
-## Skills
-
-`C` `C++` `Python` `MATLAB` `Git` `LaTeX` · Altium · KiCad · SolidWorks · AutoCAD · Soldering (iron, hot-air)
-
----
-
-jk669920@ohio.edu · 614-940-5622 · [LinkedIn](https://www.linkedin.com/in/JohnKochensparger)
+jk669920@ohio.edu · 614-940-5622 · [LinkedIn](https://www.linkedin.com/in/JohnKochensparger) 
