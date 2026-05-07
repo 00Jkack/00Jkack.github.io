@@ -41,4 +41,4 @@ Previously worked at the following comapanies for general package handling: **UP
   
 ---
 
-jk669920@ohio.edu · 614-940-5622 · [LinkedIn](https://www.linkedin.com/in/JohnKochensparger) 
+00kochensparger@gmail.com · jack.kochensparger@eyeproxyllc.com · 614-940-5622 · [LinkedIn](https://www.linkedin.com/in/JohnKochensparger) 
