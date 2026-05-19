@@ -9,9 +9,9 @@ Recently received a **Bachelors of Science in Electrical Engineering (BSEE) from
 
 **Co-founder and Production Lead at Eye Proxy LLC** — a dashcam startup. Filed provisional U.S. patent (2025). Coordinated and collaborated with every engineer on the project. Co-designed PCB, built the enclosure, and authored 90%+ of company design and legal documentation.
 
-**Currently onboarding with Naval Surface Warfare Center Crane (NSWC Crane)**, ongoing 7 months.
+**Currently onboarding with Naval Surface Warfare Center Crane (NSWC Crane)**, which leads me to be looking for some short term work. 
 
-Alongside these two commitments, **I am still open for work**. Working at Crane would be a very prestigious catalyst for my career, but the federal government is still not approving hires outside of internships for current students and cybersecurity. As an Electrical Engineer, what that means for me is that I have completed all onboarding tasks and clearance requirements; I am just waiting for the approval from NAVSEA.
+Alongside these two commitments, **I am open for opportunities**. Working at Crane would be a very prestigious catalyst for my career, but the federal government is still not approving hires outside of internships for current students and cybersecurity. As an Electrical Engineer, what that means for me is that I have completed all onboarding tasks and clearance requirements; I am just waiting for the approval from NAVSEA.
 
 **Spent two years at AMETEK Sunpower working on cryocooler system R&D**: hardware testing, firmware testing, ESD compliance, designed a 600W test-load, maintained user manuals, component-lifecycle tracking, and a 358-procedure test automation app that supported production rate, mitigated production error, and cut per-procedure time by 95%.
 
