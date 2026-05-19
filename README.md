@@ -29,14 +29,17 @@ Previously worked at the following companies for general package handling: **UPS
 
 ## Ohio U Rocket Club Flight Controller 
 
+I served as Avionics Lead for Ohio University Rocket Club. I managed a small team with a short schedule to build a custom flight controller and payload insert for L1 rockets. We used the SparkFun Nina B306 to continuously log flight data to an SD card. All together we managed to do everything a jolly logic datalogger could and better (faster logging, more sensors) for almost half the price. 
 
 [Ohio U Rocket Club Flight Controller ](./BOT_0049.JPG)
 
+The following semester I went with a similar design concept except we used the Blue Raven flight controller. Sadly the flight was cancelled. I went with the Blue Raven because of its reputation in the community. Before selecting the Blue Raven my team was working on completing our own custom PCB using the ESP32-P4, but our faculty advisor said it was too large of a jump for the club at that point. I used some of the same hardware designs with my other project the EP1 which worked within the first order of prototypes. 
   
 ---
 
 ## Eye Proxy LLC  
 
+Eye Proxy was my senior capstone project. I always knew that I wanted to get into hardware design and make devices in my career. That is why this project was perfect for me. The Eye Proxy is a patent-protected, wiresless, solar, dual-camera dashcam. The design allows for it to be inconspicuous to the eye. We are working on listing our product on Amazon and further protecting the IP of the product. 
 
 [EP1](./Explodedview.png)
 
