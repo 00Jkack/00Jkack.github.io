@@ -23,7 +23,7 @@ Previously worked at the following companies for general package handling: **UPS
 
 ## Resume 
 
-[Resume](./John Kochensparger 05.21.26.pdf)
+[Resume](./John_Kochensparger_05.21.26.pdf)
 
 ---
 
