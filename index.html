@@ -145,6 +145,7 @@ h1 em { font-style: normal; color: var(--accent); }
 .g-minor { stroke: var(--scope-grid); stroke-width: 1; }
 .g-axis { stroke: var(--scope-axis); stroke-width: 1; }
 .g-tick { stroke: var(--scope-axis); stroke-width: 1; }
+.g-label { fill: #8d8b7f; font-family: var(--mono); font-size: 11px; }
 .trace { fill: none; stroke: var(--trace); stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
 .trace-glow { fill: none; stroke: var(--trace); stroke-width: 5; opacity: 0.22; filter: blur(3px); }
 .cursor-line { stroke: rgba(255,255,255,0.35); stroke-dasharray: 3 3; }
@@ -315,7 +316,7 @@ footer { padding: 96px 0 48px; }
       <div>
         <p class="kicker">Electrical engineer <span class="dot">·</span> Hardware &amp; test <span class="dot">·</span> Ohio</p>
         <h1>I find out why hardware fails, fix it, and <em>prove the fix holds.</em></h1>
-        <p class="lede">Electronics Engineer at Air Force Metrology and Calibration (AFMETCAL), where I review drawings, specifications, and test plans for incoming calibration systems and trace equipment failures to root cause. Before that: two years of cryocooler R&amp;D at AMETEK Sunpower, a summer on the floor of two asphalt emulsion plants, leading my rocket club's avionics team, and co-founding Eye Proxy out of my senior capstone.</p>
+        <p class="lede">I finished my BSEE at Ohio University in May 2026 and went straight to work as an Electronics Engineer at Air Force Metrology and Calibration (AFMETCAL), reviewing drawings, specifications, and test plans for incoming calibration systems and tracing equipment failures to root cause. Before that: two years of cryocooler R&amp;D at AMETEK Sunpower, a summer on the floor of two asphalt emulsion plants, leading my rocket club's avionics team, and co-founding Eye Proxy out of my senior capstone.</p>
         <div class="cta">
           <a class="btn primary" href="John_Kochensparger_Resume.pdf">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2v8m0 0L4.5 6.5M8 10l3.5-3.5M2.5 13.5h11"/></svg>
@@ -639,9 +640,20 @@ footer { padding: 96px 0 48px; }
   }
   for (var c = 1; c < 10; c++) line(c * 50, 0, c * 50, H, "g-minor");
   for (var r = 1; r < 8; r++) line(0, r * 40, W, r * 40, "g-minor");
-  line(W / 2, 0, W / 2, H, "g-axis"); line(0, H / 2, W, H / 2, "g-axis");
-  for (var k = 0; k <= 50; k++) { var tx = k * 10; line(tx, H / 2 - 3, tx, H / 2 + 3, "g-tick"); }
-  for (var m = 0; m <= 40; m++) { var ty = m * 8; line(W / 2 - 3, ty, W / 2 + 3, ty, "g-tick"); }
+  // axes sit at I = 0 and t = 0 (the trigger), so the trace reads like a graph:
+  // flat at 0 A before the discharge, then the pulse, decaying back toward 0 A.
+  var X0 = x(0), Y0 = y(0);
+  line(X0, 0, X0, H, "g-axis"); line(0, Y0, W, Y0, "g-axis");
+  for (var k = 0; k <= 50; k++) { var tx = k * 10; line(tx, Y0 - 3, tx, Y0 + 3, "g-tick"); }
+  for (var m = 0; m <= 40; m++) { var ty = m * 8; line(X0 - 3, ty, X0 + 3, ty, "g-tick"); }
+  function label(txt, lx, ly, anchor) {
+    var el = document.createElementNS(svgNS, "text");
+    el.setAttribute("x", lx); el.setAttribute("y", ly); el.setAttribute("text-anchor", anchor);
+    el.setAttribute("class", "g-label"); el.textContent = txt; grid.appendChild(el);
+  }
+  [10, 20, 30].forEach(function (a) { label(a + " A", X0 - 7, y(a) + 4, "end"); });
+  [20, 40, 60, 80].forEach(function (t) { label(t === 80 ? "80 ns" : String(t), x(t), Y0 + 17, "middle"); });
+  label("0", X0 - 7, Y0 + 17, "end");
   // trigger marker at t = 0 and ground marker at I = 0
   var trig = document.createElementNS(svgNS, "path");
   trig.setAttribute("d", "M" + x(0) + " 0 l-5 -0 l5 8 l5 -8 z"); trig.setAttribute("class", "trig"); grid.appendChild(trig);
