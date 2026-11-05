@@ -213,15 +213,6 @@ h3 { font: 600 21px/1.25 var(--serif); letter-spacing: -0.01em; margin: 0 0 14px
 .build li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 9px; height: 1.5px; background: var(--accent); }
 .aside-note { font-size: 15px; border-left: 2px solid var(--accent); padding: 2px 0 2px 14px; color: var(--ink-2); }
 
-.track-card { background: var(--card); border: 1px solid var(--rule); padding: 24px 24px 20px; }
-.track-title { font: 500 12px/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 20px; }
-.track { list-style: none; margin: 0 0 0 6px; padding: 0 0 0 22px; border-left: 2px solid var(--rule); display: grid; gap: 18px; }
-.track li { position: relative; display: grid; gap: 2px; }
-.track li::before { content: ""; position: absolute; left: -30px; top: 3px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--accent); }
-.track b { font: 500 13px/1.3 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; }
-.track span { color: var(--ink-2); font-size: 15px; line-height: 1.45; }
-.track-note { margin: 22px 0 0; padding-top: 14px; border-top: 1px dashed var(--rule); font-size: 13.5px; color: var(--muted); }
-
 /* experience */
 .timeline { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
 .timeline li { display: grid; grid-template-columns: 200px 1fr; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--rule); }
@@ -324,7 +315,7 @@ footer { padding: 96px 0 48px; }
       <div>
         <p class="kicker">Electrical engineer <span class="dot">·</span> Hardware &amp; test <span class="dot">·</span> Ohio</p>
         <h1>I find out why hardware fails, fix it, and <em>prove the fix holds.</em></h1>
-        <p class="lede">Electronics Engineer at Air Force Metrology and Calibration (AFMETCAL), where I review drawings, specifications, and test plans for incoming calibration systems and trace equipment failures to root cause. Before that: two years of cryocooler R&amp;D at AMETEK Sunpower, a summer on the floor of two asphalt emulsion plants, and leading a four-person team from requirements to a working prototype.</p>
+        <p class="lede">Electronics Engineer at Air Force Metrology and Calibration (AFMETCAL), where I review drawings, specifications, and test plans for incoming calibration systems and trace equipment failures to root cause. Before that: two years of cryocooler R&amp;D at AMETEK Sunpower, a summer on the floor of two asphalt emulsion plants, leading my rocket club's avionics team, and co-founding Eye Proxy out of my senior capstone.</p>
         <div class="cta">
           <a class="btn primary" href="John_Kochensparger_Resume.pdf">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2v8m0 0L4.5 6.5M8 10l3.5-3.5M2.5 13.5h11"/></svg>
@@ -377,7 +368,7 @@ footer { padding: 96px 0 48px; }
       <div class="num"><b>95%</b><span>less time per test procedure after automating 358 of them</span></div>
       <div class="num"><b>200+</b><span>plant valve alignment procedures written, in line with OSHA</span></div>
       <div class="num"><b>16.5 kV</b><span>ESD compliance testing, run until two controllers passed</span></div>
-      <div class="num"><b>4</b><span>person hardware team led from requirements to a working prototype</span></div>
+      <div class="num"><b>5</b><span>rocket launches logged by flight firmware I wrote</span></div>
     </div>
   </div>
 
@@ -457,31 +448,24 @@ footer { padding: 96px 0 48px; }
         <p class="eyebrow">02 / Built</p>
         <div>
           <h2 id="built-title">Projects I've led</h2>
-          <p class="section-lede">Two hardware teams, from requirements to flight and prototype.</p>
+          <p class="section-lede">A rocket club avionics team, and a capstone that became a company.</p>
         </div>
       </div>
 
       <div class="build">
-        <div class="track-card">
-          <p class="track-title">Design reviews · what I wrote</p>
-          <ol class="track">
-            <li><b>SRR</b><span>Presentation, written in full</span></li>
-            <li><b>PDR</b><span>About 70% of the report and 100 of 125 slides</span></li>
-            <li><b>CDR</b><span>Most of the report and the presentation</span></li>
-            <li><b>TDP</b><span>About 95% of the Technical Design Package</span></li>
-            <li><b>Expo ×2</b><span>The poster, and demos for the judges</span></li>
-          </ol>
-          <p class="track-note">The product is patent pending, so its details stay off this page.</p>
-        </div>
+        <figure class="media">
+          <div class="plate"><img src="assets/ep1-exploded.jpg" width="529" height="779" alt="Exploded CAD view of the EP1: a parking-pass-shaped housing, the main circuit board, and a rear cover." loading="lazy"></div>
+          <figcaption>EP1 exploded view: housing, main board, rear cover.</figcaption>
+        </figure>
         <div>
-          <p class="build-meta">Eye Proxy LLC · Co-founder · Project lead</p>
-          <h3>Leading a four-person hardware team</h3>
-          <p>Eye Proxy is building a vehicle security product. It started as my senior capstone: three engineering students and a faculty advisor, two semesters, from requirements to a working prototype.</p>
+          <p class="build-meta">Eye Proxy LLC · Co-founder · 2025–present</p>
+          <h3>EP1: a dashcam disguised as a parking pass</h3>
+          <p>Eye Proxy started as my senior capstone, where I was the project manager. Today it's a two-person company with a patent pending. My partner leads hardware and procurement. I lead the patent work, documentation, firmware, and business development.</p>
           <ul>
-            <li>Ran the weekly meetings and wrote the minutes. Each week everyone named what they would deliver, and action items carried forward with an owner.</li>
-            <li>When something broke, it went on the next agenda, into the minutes, and to someone for follow-up.</li>
-            <li>Managed 32 system-level requirements through SRR, PDR, and CDR.</li>
-            <li>Designed the enclosure (<a href="#fn-03">FN-03</a>) and did hands-on bring-up and rework on the first boards (<a href="#fn-04">FN-04</a>).</li>
+            <li>As capstone project manager, I ran the weekly meetings and minutes and carried action items through the SRR, PDR, and CDR design reviews. When something broke, it went on the next agenda with an owner.</li>
+            <li>Designed the enclosure through three revisions and about ten printed prototypes (<a href="#fn-03">FN-03</a>).</li>
+            <li>Did hands-on bring-up and rework on the first boards (<a href="#fn-04">FN-04</a>).</li>
+            <li>Presented the working prototype at two expos in April 2026.</li>
           </ul>
         </div>
       </div>
@@ -494,7 +478,7 @@ footer { padding: 96px 0 48px; }
         <div>
           <p class="build-meta">Ohio University Rocket Club · Avionics Lead</p>
           <h3>A flight logger for half the price of the off-the-shelf one</h3>
-          <p>I led a small team on a short schedule to build a flight controller and payload insert for L1 rockets, built around the SparkFun NINA-B306 and logging continuously to an SD card. It did everything the commercial datalogger we compared against could do, logged faster with more sensors, and cost about half as much.</p>
+          <p>As Avionics Lead, I led the club's hardware development team. On a short schedule we built a flight controller and payload insert for L1 rockets, built around the SparkFun NINA-B306 and logging continuously to an SD card. It did everything the commercial datalogger we compared against could do, logged faster with more sensors, and cost about half as much.</p>
           <ul>
             <li>Selected the flight hardware and wrote the firmware; it logged flight data on five L1 launches.</li>
             <li>Built a Python pipeline to analyze the 200k to 300k sensor readings from each flight.</li>
@@ -522,8 +506,8 @@ footer { padding: 96px 0 48px; }
         <li>
           <div class="when">Oct 2025 – now</div>
           <div>
-            <div><span class="org">Eye Proxy LLC</span> · <span class="role">Co-Founder and Project Lead, Athens, OH</span></div>
-            <p>Project lead for the senior capstone behind the company. Led a four-person team from requirements to a working prototype of a vehicle security product (patent pending): meetings and action tracking, requirements, design reviews, most of the documentation, the enclosure, and hands-on bring-up.</p>
+            <div><span class="org">Eye Proxy LLC</span> · <span class="role">Co-Founder, Athens, OH</span></div>
+            <p>A two-person company building the EP1, a covert dashcam (patent pending). I lead the patent work, documentation, firmware, and business development; my partner leads hardware and procurement. It started as my senior capstone, where I was project manager.</p>
           </div>
         </li>
         <li>
@@ -550,7 +534,7 @@ footer { padding: 96px 0 48px; }
         <li>
           <div class="when">May 2026</div>
           <div>
-            <div><span class="org">Ohio University</span> · <span class="role">B.S. Electrical Engineering · IEEE member</span></div>
+            <div><span class="org">Ohio University</span> · <span class="role">B.S. Electrical Engineering · Avionics Lead, Rocket Club · IEEE member</span></div>
           </div>
         </li>
       </ol>
@@ -591,7 +575,7 @@ footer { padding: 96px 0 48px; }
       </div>
       <dl class="tools">
         <div><dt>Field &amp; analysis</dt><dd>Root cause analysis; drawing, spec, and test plan review; ESD testing (IEC 61000-4-2); technical reports</dd></div>
-        <div><dt>Project leadership</dt><dd>Requirements management; SRR, PDR, and CDR design reviews; action-item tracking; technical design packages</dd></div>
+        <div><dt>Leadership &amp; business</dt><dd>Team leadership; SRR, PDR, and CDR design reviews; action-item tracking; patent and business development</dd></div>
         <div><dt>Metrology</dt><dd>Calibration Technical Orders and standards; microwave, RF, electro-optical, and voltage measurement</dd></div>
         <div><dt>Hands-on</dt><dd>Lead-free soldering (iron, hot air), PCB rework, cable fabrication, fiber splicing, oscilloscopes</dd></div>
         <div><dt>Design</dt><dd>Altium, KiCad, Multisim, AutoCAD, SolidWorks, Autodesk Inventor</dd></div>
